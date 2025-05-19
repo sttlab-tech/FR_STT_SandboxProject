@@ -8,12 +8,21 @@ packages:
   gitUsername: sttlab-tech
   gitBranch: main
 - name: sttDeployEverywhere
+  version: "1.0"
   gitServerName: sttlab_github
   gitUrl: https://github.com/staillanibm
   gitUsername: sttlab-tech
   gitBranch: main
 services:
+- serviceName: project.fr_stt_sandbox.integrations:badeTest
+  packages:
+  - name: FR_STT_SandboxProject
+    version: "1.0"
+  - name: sttDeployEverywhere
+    version: "1.0"
 - serviceName: project.fr_stt_sandbox.integrations:sayHello
   packages:
   - name: FR_STT_SandboxProject
+    version: "1.0"
+  - name: sttDeployEverywhere
     version: "1.0"
