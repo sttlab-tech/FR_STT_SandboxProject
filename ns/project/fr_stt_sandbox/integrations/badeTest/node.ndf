@@ -45,15 +45,31 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">Stephane.Tailland@ibm.com</value>
-    <value name="createdDate">1747657445209</value>
-    <value name="lastModifiedDate">1747657445209</value>
+    <value name="lastModifiedBy">Stephane.Tailland@ibm.com</value>
+    <value name="lastModifiedDate">1747659278657</value>
     <value name="displayName">badeTest</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <null name="name"/>
+        <value name="itemType">PACKAGES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">sttDeployEverywhere</value>
+          <value name="groupName">sttDeployEverywhere;1.0</value>
+          <null name="services"/>
+        </record>
+        <Boolean name="isProjectPackage">false</Boolean>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="description">sttDeployEverywhere.services:readFileViaHTTP</value>
+          <value name="serviceName">sttDeployEverywhere.services:readFileViaHTTP</value>
+          <value name="displayName">readFileViaHTTP</value>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
+        <number name="ui_step_index" type="Long">1</number>
+        <value name="nodePathNew">0</value>
+        <number name="nodeIndex" type="Long">0</number>
+        <number name="lineNumberForDebug" type="Long">1</number>
       </record>
     </record>
   </record>
