@@ -20,6 +20,18 @@ services:
     version: "1.0"
   - name: sttDeployEverywhere
     version: "1.0"
+- serviceName: sttDeployEverywhere.services:readFileViaHTTP
+  packages:
+  - name: sttDeployEverywhere
+    version: "1.0"
+- serviceName: pub.client:http
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
+- serviceName: pub.io:streamToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
 - serviceName: project.fr_stt_sandbox.integrations:sayHello
   packages:
   - name: FR_STT_SandboxProject
