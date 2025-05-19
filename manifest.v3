@@ -7,17 +7,19 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="sttDeployEverywhere">1.0</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">4</value>
+  <value name="build">5</value>
   <null name="description"/>
   <value name="created_date">18-04-2025 10:28:13 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2025-04-18T10:29:37.825349734Z</value>
+  <value name="lastUpdated">2025-05-19T11:43:21.759767448Z</value>
   <value name="wmProjectId">flb60090a8ce292212136f23</value>
   <value name="creator">Stephane Tailland</value>
 </Values>
